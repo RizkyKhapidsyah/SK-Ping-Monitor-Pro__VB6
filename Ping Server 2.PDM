@@ -1,0 +1,116 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Ping Server 2.01
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\msjter35.dll=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\msrd2x35.dll=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Visual Basic\Ping 2\Ping Monitor 2.01.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Visual Basic\Ping 2\Ping Server 3 Beta.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Visual Basic\Ping 2\Ping Monitor 2.01.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Visual Basic\Ping 2\Ping Server 3 Beta.exe=No
+E:\Visual Basic\Ping 2\Ping Monitor 2.01.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Ping Monitor 2.01
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Ping Server 2.01
+ProjectFolder=E:\Visual Basic\Ping 2
+ServerSideCab=
+File1=E:\Ping Server 2.01\setup.exe
+File2=E:\Ping Server 2.01\Setup.Lst
+File3=E:\Ping Server 2.01\Ping Monitor 2.01.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=FHEC
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|FHEC]
+Icon1="Ping Monitor 2.01.exe"
+Title1=Ping Monitor 2.01
+StartIn1=$(AppPath)
+Key1=Icon3
